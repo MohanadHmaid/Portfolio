@@ -9,7 +9,8 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
     "start": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles",
     "homepage": "https://mohanadhmaid.github.io/Portfolio"
   },
   "dependencies": {
