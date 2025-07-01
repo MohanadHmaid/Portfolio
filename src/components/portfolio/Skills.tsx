@@ -3,13 +3,13 @@ import { useInView } from "@/hooks/useInView";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 
-interface Skill {
+interface skill {
   name: string;
   level: number;
   color: string;
 }
 
-const skills: Skill[] = [
+const skills: skill[] = [
   {
     name: "Frontend Development",
     level: 95,
@@ -58,7 +58,7 @@ export function Skills() {
   }, [inView]);
 
   const scrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth"});
   };
 
   return (

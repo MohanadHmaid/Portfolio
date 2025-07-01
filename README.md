@@ -27,39 +27,6 @@ The project is built using the following technologies:
 *   **Animations:** Framer Motion
 *   **3D Graphics:** React Three Fiber, Drei, Three.js
 
-## Setup and Installation
-
-To run this project locally, follow these steps:
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/MohanadHmaid/Portfolio.git
-    cd Portfolio
-    ```
-
-2.  **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3.  **Run the development server:**
-
-    ```bash
-    npm run dev
-    ```
-
-    The application will be accessible at `http://localhost:8080` 
-
-4.  **Build for production:**
-
-    ```bash
-    npm run build
-    ```
-
-    This will create a `dist` folder with the production-ready build.
-
 
 
 
