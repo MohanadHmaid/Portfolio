@@ -197,7 +197,6 @@ export function Navbar() {
               transition={{ duration: 0.3 }}
               className="lg:hidden bg-background/95 backdrop-blur-lg border-b border-border"
             >
-              <div className="container-max section-padding py-4">
                 <div className="container-max section-padding py-4 min-h-screen">
                   {navItems.map((item, index) => (
                     <motion.button
@@ -216,7 +215,6 @@ export function Navbar() {
                     </motion.button>
                   ))}
                 </div>
-              </div>
             </motion.div>
           )}
         </AnimatePresence>
