@@ -18,7 +18,7 @@ const reviews: Review[] = [
     name: "Sarah Johnson",
     role: "Product Manager",
     company: "TechCorp Inc.",
-    image: "/assets/Sarah_pic.png",
+    image: "/Portfolio/assets/Sarah_pic.png",
     testimonial:
       "Mohanad delivered exceptional work on our e-commerce platform. His attention to detail and technical expertise exceeded our expectations. The project was completed on time and within budget.",
     rating: 5,
@@ -28,7 +28,7 @@ const reviews: Review[] = [
     name: "Ahmed Al-Rashid",
     role: "CEO",
     company: "Digital Solutions",
-    image: "/assets/Ahmed_pic.png",
+    image: "/Portfolio/assets/Ahmed_pic.png",
     testimonial:
       "Working with Mohanad was a game-changer for our startup. He transformed our vision into a beautiful, functional web application that our users love. Highly recommended!",
     rating: 5,
@@ -38,7 +38,7 @@ const reviews: Review[] = [
     name: "Emily Chen",
     role: "CTO",
     company: "Innovation Labs",
-    image: "/assets/Emily_pic.png",
+    image: "/Portfolio/assets/Emily_pic.png",
     testimonial:
       "Mohanad's full-stack skills are impressive. He seamlessly handled both frontend and backend development, delivering a robust and scalable solution that continues to serve us well.",
     rating: 5,

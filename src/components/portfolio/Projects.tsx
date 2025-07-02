@@ -29,7 +29,7 @@ const projects: Project[] = [
     title: "E-Commerce Platform",
     description:
       "Full-stack e-commerce solution with modern UI, payment integration, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
-    image: "/assets/ecommerce_platform.jpg",
+    image: "/Portfolio/assets/ecommerce_platform.jpg",
     techStack: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
     liveUrl: "https://example.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Task Management App",
     description:
       "Collaborative task management application with real-time updates, team features, and analytics dashboard.",
-    image: "/assets/task_management_app.jpg",
+    image: "/Portfolio/assets/task_management_app.jpg",
     techStack: ["Next.js", "TypeScript", "Prisma", "Socket.io", "React Query"],
     liveUrl: "https://example.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
@@ -53,7 +53,7 @@ const projects: Project[] = [
     title: "Mobile Banking App",
     description:
       "Secure mobile banking application with biometric authentication, transaction history, and budget tracking.",
-    image: "/assets/mobile_banking_app.jpg",
+    image: "/Portfolio/assets/mobile_banking_app.jpg",
     techStack: ["React Native", "Redux", "Firebase", "Node.js"],
     liveUrl: "https://play.google.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
@@ -64,7 +64,7 @@ const projects: Project[] = [
     title: "API Gateway Service",
     description:
       "Microservices API gateway with authentication, rate limiting, and monitoring capabilities.",
-    image: "/assets/api_gateway_service.jpg",
+    image: "/Portfolio/assets/api_gateway_service.jpg",
     techStack: ["Node.js", "Express", "Redis", "MongoDB", "Docker"],
     githubUrl: "https://https://github.com/MohanadHmaid",
     category: "api",
@@ -74,7 +74,7 @@ const projects: Project[] = [
     title: "Design System",
     description:
       "Comprehensive design system with reusable components, documentation, and design tokens.",
-    image: "/assets/design_system.jpg",
+    image: "/Portfolio/assets/design_system.jpg",
     techStack: ["Storybook", "React", "Figma", "TypeScript"],
     liveUrl: "https://  example.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
@@ -85,7 +85,7 @@ const projects: Project[] = [
     title: "Real-time Chat Platform",
     description:
       "Modern chat application with rooms, file sharing, and video calls. Supports thousands of concurrent users.",
-    image: "/assets/real_time_chat_platform.jpg",
+    image: "/Portfolio/assets/real_time_chat_platform.jpg",
     techStack: ["React", "Socket.io", "WebRTC", "MongoDB", "AWS"],
     liveUrl: "https://example.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
