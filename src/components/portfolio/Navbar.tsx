@@ -57,7 +57,7 @@ export function Navbar() {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
+      setTimeout(() => setIsMobileMenuOpen(false), 300);
     }
   };
 
@@ -198,7 +198,7 @@ export function Navbar() {
               className="lg:hidden bg-background/95 backdrop-blur-lg border-b border-border"
             >
               <div className="container-max section-padding py-4">
-                <div className="flex flex-col space-y-4">
+                <div className="container-max section-padding py-4 min-h-screen">
                   {navItems.map((item, index) => (
                     <motion.button
                       key={item.id}
