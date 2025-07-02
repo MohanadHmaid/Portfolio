@@ -10,7 +10,7 @@
     "typecheck": "tsc",
     "start": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "homepage": "https://mohanadhmaid.github.io/Portfolio"
   },
   "dependencies": {
