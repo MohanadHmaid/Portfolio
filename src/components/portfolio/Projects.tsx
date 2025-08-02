@@ -74,7 +74,7 @@ const projects: Project[] = [
     title: "Design System",
     description:
       "Comprehensive design system with reusable components, documentation, and design tokens.",
-    image: "/Portfolio/assets/design_system.jpg",
+    image: "/assets/design_system.jpg",
     techStack: ["Storybook", "React", "Figma", "TypeScript"],
     liveUrl: "https://  example.com",
     githubUrl: "https://https://github.com/MohanadHmaid",
