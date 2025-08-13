@@ -62,10 +62,15 @@ export function Navbar() {
     setIsDark(!isDark);
   };
 
-  const scrollToSection = (sectionId) => {
+   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const navbarHeight = 80; // Approximate navbar height
+      const elementPosition = element.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: "smooth"
+      });
       // Close mobile menu after navigation with a slight delay
       setTimeout(() => setIsMobileMenuOpen(false), 100);
     }

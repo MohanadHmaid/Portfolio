@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { useTypingAnimation } from "@/hooks/useTypingAnimation";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { motion } from "framer-motion";
 
 export function Header() {
   const [showSubtitle, setShowSubtitle] = useState(false);
+  const isMobile = useIsMobile();
 
   const { displayText: nameText, isComplete: nameComplete } =
     useTypingAnimation({
@@ -28,7 +30,9 @@ export function Header() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className={`min-h-screen flex items-center justify-center relative overflow-hidden ${
+        isMobile ? 'pt-20' : ''
+      }`}
     >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
@@ -93,21 +97,33 @@ export function Header() {
                   className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
                 >
                   <button
-                    onClick={() =>
-                      document
-                        .getElementById("projects")
-                        ?.scrollIntoView({ behavior: "smooth" })
-                    }
+                    onClick={() => {
+                      const element = document.getElementById("projects");
+                      if (element) {
+                        const navbarHeight = 80;
+                        const elementPosition = element.offsetTop - navbarHeight;
+                        window.scrollTo({
+                          top: elementPosition,
+                          behavior: "smooth"
+                        });
+                      }
+                    }}
                     className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
                     View My Work
                   </button>
                   <button
-                    onClick={() =>
-                      document
-                        .getElementById("contact")
-                        ?.scrollIntoView({ behavior: "smooth" })
-                    }
+                    onClick={() => {
+                      const element = document.getElementById("contact");
+                      if (element) {
+                        const navbarHeight = 80;
+                        const elementPosition = element.offsetTop - navbarHeight;
+                        window.scrollTo({
+                          top: elementPosition,
+                          behavior: "smooth"
+                        });
+                      }
+                    }}
                     className="px-8 py-4 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                   >
                     Contact Me
