@@ -146,6 +146,17 @@
   html, body {
     @apply overflow-x-hidden w-full;
   }
+
+  /* Add scroll-padding-top for fixed navbar */
+  html {
+    scroll-padding-top: 5rem; /* adjust to match your navbar height */
+  }
+
+  @screen lg {
+    html {
+      scroll-padding-top: 6rem; /* taller navbar on large screens */
+    }
+  }
 }
 
 
